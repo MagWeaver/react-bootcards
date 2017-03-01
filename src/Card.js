@@ -12,8 +12,10 @@ class Card extends React.Component {
       this.props.cardStyle === 'default'
         ? null
         : 'bootcards-' + this.props.cardStyle;
+	const otherProps = Object.assign({}, this.props);
+	delete otherProps.cardStyle;
     return (
-      <Panel {...this.props} className={classNames(this.props.className, cardClassName)}>
+      <Panel {...otherProps} className={classNames(this.props.className, cardClassName)}>
         {this.props.children}
       </Panel>
     );
