@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
+import PropTypes from 'prop-types';
 
 class ListGroupItemText extends React.Component {
   constructor(props) {
@@ -23,8 +24,8 @@ class ListGroupItemText extends React.Component {
 }
 
 ListGroupItemText.propTypes = {
-  componentClass: React.PropTypes.string,
-  textClassName: React.PropTypes.string,
+  componentClass: PropTypes.string,
+  textClassName: PropTypes.string,
 };
 
 ListGroupItemText.defaultProps = {

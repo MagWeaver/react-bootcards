@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import {Panel} from 'react-bootstrap';
+import PropTypes from 'prop-types';
 
 class Card extends React.Component {
   constructor(props) {
@@ -24,7 +25,7 @@ class Card extends React.Component {
 }
 
 Card.propTypes = {
-  cardStyle: React.PropTypes.oneOf(['default', 'chart', 'summary', 'media', 'file', 'richtext']),
+  cardStyle: PropTypes.oneOf(['default', 'chart', 'summary', 'media', 'file', 'richtext']),
 };
 
 Card.defaultProps = {

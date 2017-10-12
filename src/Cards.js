@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import {Col} from 'react-bootstrap';
+import PropTypes from 'prop-types';
 
 class Cards extends React.Component {
   constructor(props) {
@@ -22,7 +23,7 @@ class Cards extends React.Component {
 }
 
 Cards.propTypes = {
-  cardsClassName: React.PropTypes.string,
+  cardsClassName: PropTypes.string,
 };
 
 Cards.defaultProps = {

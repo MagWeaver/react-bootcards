@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import {Col} from 'react-bootstrap';
+import PropTypes from 'prop-types';
 
 class List extends React.Component {
   constructor(props) {
@@ -22,7 +23,7 @@ class List extends React.Component {
 }
 
 List.propTypes = {
-  listClassName: React.PropTypes.string,
+  listClassName: PropTypes.string,
 };
 
 List.defaultProps = {
