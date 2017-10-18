@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
+import PropTypes from 'prop-types';
 
 class CardFooter extends React.Component {
   constructor(props) {
@@ -23,8 +24,8 @@ class CardFooter extends React.Component {
 }
 
 CardFooter.propTypes = {
-  componentClass: React.PropTypes.string,
-  footerClassName: React.PropTypes.string,
+  componentClass: PropTypes.string,
+  footerClassName: PropTypes.string,
 };
 
 CardFooter.defaultProps = {

@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
+import PropTypes from 'prop-types';
 
 class Container extends React.Component {
   constructor(props) {
@@ -23,8 +24,8 @@ class Container extends React.Component {
 }
 
 Container.propTypes = {
-  componentClass: React.PropTypes.string,
-  headingClassName: React.PropTypes.string,
+  componentClass: PropTypes.string,
+  headingClassName: PropTypes.string,
 };
 
 Container.defaultProps = {

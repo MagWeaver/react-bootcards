@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
+import PropTypes from 'prop-types';
 
 class CardHeader extends React.Component {
   constructor(props) {
@@ -23,8 +24,8 @@ class CardHeader extends React.Component {
 }
 
 CardHeader.propTypes = {
-  componentClass: React.PropTypes.string,
-  headerClassName: React.PropTypes.string,
+  componentClass: PropTypes.string,
+  headerClassName: PropTypes.string,
 };
 
 CardHeader.defaultProps = {

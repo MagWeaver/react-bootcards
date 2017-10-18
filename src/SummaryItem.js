@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
+import PropTypes from 'prop-types';
 
 class SummaryItem extends React.Component {
   constructor(props) {
@@ -23,8 +24,8 @@ class SummaryItem extends React.Component {
 }
 
 SummaryItem.propTypes = {
-  componentClass: React.PropTypes.string,
-  itemClassName: React.PropTypes.string,
+  componentClass: PropTypes.string,
+  itemClassName: PropTypes.string,
 };
 
 SummaryItem.defaultProps = {

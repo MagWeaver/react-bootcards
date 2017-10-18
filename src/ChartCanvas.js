@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
+import PropTypes from 'prop-types';
 
 class ChartCanvas extends React.Component {
   constructor(props) {
@@ -23,8 +24,8 @@ class ChartCanvas extends React.Component {
 }
 
 ChartCanvas.propTypes = {
-  componentClass: React.PropTypes.string,
-  canvasClassName: React.PropTypes.string,
+  componentClass: PropTypes.string,
+  canvasClassName: PropTypes.string,
 };
 
 ChartCanvas.defaultProps = {
