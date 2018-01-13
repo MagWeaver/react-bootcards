@@ -31,7 +31,6 @@ ChartCanvas.propTypes = {
 ChartCanvas.defaultProps = {
   componentClass: 'div',
   canvasClassName: 'bootcards-chart-canvas',
-  fill: true,
 };
 
 export default ChartCanvas;

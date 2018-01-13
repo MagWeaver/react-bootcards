@@ -31,7 +31,6 @@ CardFooter.propTypes = {
 CardFooter.defaultProps = {
   componentClass: 'div',
   footerClassName: 'panel-footer',
-  fill: true,
 };
 
 export default CardFooter;
