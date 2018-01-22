@@ -31,7 +31,7 @@ CardHeader.propTypes = {
 CardHeader.defaultProps = {
   componentClass: 'div',
   headerClassName: 'panel-heading',
-  fill: true,
+  fill: 'true',
 };
 
 export default CardHeader;
